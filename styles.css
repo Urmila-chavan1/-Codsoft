@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ef6a6a;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #e94e77;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Features Section Styles */
+.features {
+    text-align: center;
+    padding: 2rem;
+}
+
+.features h2 {
+    margin-bottom: 1rem;
+}
+
+.feature {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
